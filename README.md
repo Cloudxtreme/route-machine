@@ -24,15 +24,3 @@ This event watches for a URL/HOST unregister command. This will remove the URL, 
 ## Publish Events
 ### `router.start`
 This event is triggered when a new process is spawned for the router.
-### `router.usage`
-This event emits the `varz` propriety of the router.
-```javascript
-router.varz = {
-	requests_per_sec : 0,//Request per-second
-	requests : 0,//Total request
-	up_per_sec : 0,//Bandwidth upload per-second
-	down_per_sec : 0,//Bandwidth download per-second
-	up : 0,//Total upload
-	down : 0//Total download
-};
-```

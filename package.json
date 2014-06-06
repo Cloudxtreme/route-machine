@@ -8,10 +8,10 @@
     "url": "https://github.com/MangoRaft/route-machine.git"
   },
   "dependencies": {
+    "ejs": "^1.0.0",
     "eventemitter2": "0.4.x",
-    "http-proxy": "0.10.x",
-    "raft-logger": "0.1.x",
-    "ejs": "^1.0.0"
+    "http-proxy": "1.0.2",
+    "raft-logger": "0.1.x"
   },
   "bin": {
     "routem": "./bin/route-server.js"
